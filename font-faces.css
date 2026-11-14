@@ -1,0 +1,241 @@
+/**
+ * Tutorial Studio
+ * Shared Web Fonts
+ *
+ * 预览 iframe、页面缩略图和服务端导出共用同一套字体文件。
+ *
+ * 说明：
+ * - Noto Sans SC / Noto Serif SC 与思源黑体 / 思源宋体同源。
+ * - 这里把模板里常见的系统字体名称映射到同一组 Web 字体，
+ *   避免 Windows 使用宋体/微软雅黑、Ubuntu 使用其它字体。
+ * - 字体文件通过 /assets/fonts/ 静态目录提供。
+ */
+
+@font-face {
+    font-family: "Noto Serif SC";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Noto Serif CJK SC";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Source Han Serif SC";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Songti SC";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "STSong";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SimSun";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FangSong";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "KaiTi";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Times New Roman";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Liberation Serif";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georgia";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Bodoni 72";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Didot";
+    src: url("./web/NotoSerifSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+
+/* =========================================================
+   Sans Serif
+========================================================= */
+
+@font-face {
+    font-family: "Noto Sans SC";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Noto Sans CJK SC";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Source Han Sans SC";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Microsoft YaHei";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Microsoft JhengHei";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PingFang SC";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PingFang TC";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Heiti SC";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SimHei";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "WenQuanYi Micro Hei";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arial";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Liberation Sans";
+    src: url("./web/NotoSansSC-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
